@@ -1,0 +1,118 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+.sobre{
+    padding: 20px;
+    margin: 0;
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(62, 91, 236), rgba(213, 16, 16, 0.92) );
+    
+    color: white;
+}
+.alinhadoAoCentro{
+    text-align: center;
+    padding: 10px;
+}
+.alinhadoTextoSobre{
+    text-align: justify;
+    font-size: 18px;
+}
+.coluna{
+    float: left;
+    width: 32%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+.cartao{
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2 );
+    margin: 8px;
+    font-size: 16px;
+}
+.imagemDeIdentificador{
+    width: 100%;
+    height: 450px;
+}
+.titulacao{
+    color: gray;
+}
+.botao{
+    border-radius: 8px;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+    width: 50%;
+    font-size: 16px;
+}
+.botao:hover{
+    opacity: 0.5;
+}
+.centro{
+    text-align: center;
+}
+h2:hover{
+    background-color: brown;
+}
+
+body {
+    background-color: rgb(228, 224, 224);
+}
+.img_variacao1 {
+    opacity: 0.2;
+  }
+  
+  .img_variacao2 {
+    opacity: 0.5;
+  }
+  
+  .img_variacao3 {
+    opacity: 1;
+  }
+  
+  .formatacaoImagem{
+    width: 100%;
+    height:450px;
+  }
+  
+  /* usado associado ao passar do mouse */
+  .imgHover {
+    width: 100%;
+    height: 450px;
+    
+  }
+  
+  .imgHover:hover {
+    opacity: 0.5;
+    
+  }
+  
+  /* trasparência aplicada em div .. perceba a
+  transparência é o último valor */
+  div {
+    background: rgb(240, 240, 240);
+    padding: 10px;
+  }
+  
+  div.primeiro {
+    background: rgba(76, 76, 175, 0.1);
+  }
+  
+  div.segundo {
+    background: rgba(76, 76, 175, 0.3);
+  }
+  
+  div.terceiro {
+    background: rgba(76, 76, 175, 0.6);
+  }
+  .rodape{
+    background-color: brown;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    margin-top: 3200px;
+    width: 100%;
+  }

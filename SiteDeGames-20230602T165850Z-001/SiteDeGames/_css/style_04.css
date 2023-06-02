@@ -1,0 +1,112 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.sobre{
+    padding: 20px;
+    margin: 0; 
+    background-image: linear-gradient(to top, rgb(228, 7, 7), rgb(96, 105, 211), rgb(0,0,0));
+    color: white;
+}
+
+.alinhadoAoCentro{
+    text-align: center;
+    padding: 10px;
+}
+
+.alinhadoTextoSobre{
+    text-align: justify;
+    padding: 10px;
+}
+
+.colaboradores{
+    text-align: center;
+    color: navy;
+}
+
+.coluna{  
+    float:left; /*responsividade */
+    width: 42%; /*responsividade */
+    margin-bottom: 16px;
+    padding: 0 50px; /*concatenação: top, left, right, bottom */
+}
+
+.cartao{
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+    font-size: 16px;
+}
+
+.imagemDeIdentificacao{
+    width: 100%; /* refere-se a 100% do tamanho da coluna*/
+    height: 350px; 
+}
+
+.titulacao{
+    color: grey;
+    font-style: italic;
+    text-align: justify;
+    padding: 5px;
+}
+
+.botao{
+    border-radius: 8px; /* arredonda os cantos do botão */
+    outline:0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+    width: 50%; /* porcentagem que o botão ocupa do card */
+    font-size: 16px;
+}
+
+.botao:hover{
+    opacity: 0.5; /* muda o comportamento do botão ao passar o mouse, neste caso caso fica opaco*/
+}
+
+.rodape{
+  background-color: rgb(46, 32, 127);
+  padding: 20px;
+  text-align: center;
+  color: white;
+  position: relative;
+  margin-top: 1400px;
+  width: 100%;
+}
+
+.texto{
+    text-align: justify;
+    padding: 5px;
+}
+
+
+span{
+    letter-spacing: 5px;
+    
+}
+.conteudoPagina {
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.mainButton{
+    background-color: white;
+    border-radius: 30px;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    margin: 10px;
+    margin-bottom: 10px;
+    width: 20%;
+    font-size: small;
+    letter-spacing: 1px;
+}
+
+
+
